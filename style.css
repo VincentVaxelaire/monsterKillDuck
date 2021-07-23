@@ -1,0 +1,177 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  left: -133px;
+}
+
+.waveback1 {
+  -webkit-transform: translate(0px, -30px);
+          transform: translate(0px, -30px);
+  -webkit-animation: waveback1 1.5s linear infinite;
+          animation: waveback1 1.5s linear infinite;
+}
+
+@-webkit-keyframes waveback1 {
+  25% {
+    -webkit-transform: translate(50px, -10px);
+            transform: translate(50px, -10px);
+  }
+  50% {
+    -webkit-transform: translate(75px, -30px);
+            transform: translate(75px, -30px);
+  }
+  100% {
+    -webkit-transform: translate(0px, -30px);
+            transform: translate(0px, -30px);
+  }
+}
+
+@keyframes waveback1 {
+  25% {
+    -webkit-transform: translate(50px, -10px);
+            transform: translate(50px, -10px);
+  }
+  50% {
+    -webkit-transform: translate(75px, -30px);
+            transform: translate(75px, -30px);
+  }
+  100% {
+    -webkit-transform: translate(0px, -30px);
+            transform: translate(0px, -30px);
+  }
+}
+
+.frontwave1 {
+  -webkit-transform: translate(133.122px, 0.166px);
+          transform: translate(133.122px, 0.166px);
+  -webkit-animation: frontwave1 2s linear infinite;
+          animation: frontwave1 2s linear infinite;
+}
+
+@-webkit-keyframes frontwave1 {
+  25% {
+    -webkit-transform: translate(183px, 21px);
+            transform: translate(183px, 21px);
+  }
+  50% {
+    -webkit-transform: translate(208px, 41px);
+            transform: translate(208px, 41px);
+  }
+  100% {
+    -webkit-transform: translate(133.122px, 0.166px);
+            transform: translate(133.122px, 0.166px);
+  }
+}
+
+@keyframes frontwave1 {
+  25% {
+    -webkit-transform: translate(183px, 21px);
+            transform: translate(183px, 21px);
+  }
+  50% {
+    -webkit-transform: translate(208px, 41px);
+            transform: translate(208px, 41px);
+  }
+  100% {
+    -webkit-transform: translate(133.122px, 0.166px);
+            transform: translate(133.122px, 0.166px);
+  }
+}
+
+.waveback2 {
+  -webkit-transform: translate(62px, 336px);
+          transform: translate(62px, 336px);
+  -webkit-animation: waveback2 3.2s linear infinite;
+          animation: waveback2 3.2s linear infinite;
+}
+
+@-webkit-keyframes waveback2 {
+  25% {
+    -webkit-transform: translate(12px, 316px);
+            transform: translate(12px, 316px);
+  }
+  50% {
+    -webkit-transform: translate(-42px, 266px);
+            transform: translate(-42px, 266px);
+  }
+  100% {
+    -webkit-transform: translate(62px, 336px);
+            transform: translate(62px, 336px);
+  }
+}
+
+@keyframes waveback2 {
+  25% {
+    -webkit-transform: translate(12px, 316px);
+            transform: translate(12px, 316px);
+  }
+  50% {
+    -webkit-transform: translate(-42px, 266px);
+            transform: translate(-42px, 266px);
+  }
+  100% {
+    -webkit-transform: translate(62px, 336px);
+            transform: translate(62px, 336px);
+  }
+}
+
+.frontwave2 {
+  -webkit-transform: translate(133.122px, 367px);
+          transform: translate(133.122px, 367px);
+  -webkit-animation: frontwave2 2s linear infinite;
+          animation: frontwave2 2s linear infinite;
+}
+
+@-webkit-keyframes frontwave2 {
+  25% {
+    -webkit-transform: translate(83px, 347px);
+            transform: translate(83px, 347px);
+  }
+  50% {
+    -webkit-transform: translate(23px, 327px);
+            transform: translate(23px, 327px);
+  }
+  100% {
+    -webkit-transform: translate(133.122px, 367px);
+            transform: translate(133.122px, 367px);
+  }
+}
+
+@keyframes frontwave2 {
+  25% {
+    -webkit-transform: translate(83px, 347px);
+            transform: translate(83px, 347px);
+  }
+  50% {
+    -webkit-transform: translate(23px, 327px);
+            transform: translate(23px, 327px);
+  }
+  100% {
+    -webkit-transform: translate(133.122px, 367px);
+            transform: translate(133.122px, 367px);
+  }
+}
+
+.isNotVisible {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.clickable {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+h1 {
+  z-index: 999;
+}
+/*# sourceMappingURL=style.css.map */

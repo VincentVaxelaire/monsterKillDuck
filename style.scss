@@ -1,0 +1,93 @@
+body{
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    left: -133px;
+}
+
+.waveback1{
+    transform: translate(0px, -30px);
+    animation: waveback1 1.5s linear infinite;
+}
+
+@keyframes waveback1{
+    25%{
+        transform: translate(50px, -10px);
+    }
+    50%{
+        transform: translate(75px, -30px);
+    }
+    100%{
+        transform: translate(0px, -30px);
+    }
+}
+
+.frontwave1{
+    transform: translate(133.122px, 0.166px);
+    animation: frontwave1 2s linear infinite;
+}
+
+@keyframes frontwave1{
+    25%{
+        transform: translate(183px, 21px);
+    }
+    50%{
+        transform: translate(208px, 41px);
+    }
+    100%{
+        transform: translate(133.122px, 0.166px);
+    }
+}
+
+.waveback2{
+    transform: translate(62px, 336px);
+    animation: waveback2 3.2s linear infinite;
+}
+
+@keyframes waveback2{
+    25%{
+        transform: translate(12px, 316px);
+    }
+    50%{
+        transform: translate(-42px, 266px);
+    }
+    100%{
+        transform: translate(62px, 336px);
+    }
+}
+
+.frontwave2{
+    transform: translate(133.122px, 367px);
+    animation: frontwave2 2s linear infinite;
+}
+
+@keyframes frontwave2{
+    25%{
+        transform: translate(83px, 347px);
+    }
+    50%{
+        transform: translate(23px, 327px);
+    }
+    100%{
+        transform: translate(133.122px, 367px);
+    }
+}
+
+.isNotVisible{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.clickable{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+h1{
+    z-index: 999;
+}
